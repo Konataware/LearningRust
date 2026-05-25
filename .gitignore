@@ -1,0 +1,14 @@
+# bins
+/target/
+*.rs.bk
+*.pdb
+
+# cargo
+Cargo.lock
+
+# debug
+*.dSYM/
+*.rlib
+
+# specific bins
+hello_world/hello_world
