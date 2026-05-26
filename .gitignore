@@ -1,7 +1,8 @@
 # bins
-/target/
+*/target/*
 *.rs.bk
 *.pdb
+*.json
 
 # cargo
 Cargo.lock
