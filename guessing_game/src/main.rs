@@ -6,10 +6,11 @@ use rand::Rng;
 fn main() {
     let secret_number: u8 = rand::thread_rng().gen_range(1..=100);
 
+
     println!("Adivinhe o número secreto.");
     
     loop {
-        let mut guess = String::new();
+        let mut guess: String = String::new();
         
         io::stdin()
             .read_line(&mut guess)
